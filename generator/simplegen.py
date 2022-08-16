@@ -19,7 +19,7 @@ __status__ = "Development"
 
 
 def generate_simple_prob(file, links, joints, angles, init, goal, oriented, id, tipo):
-    file.write("(define (problem joint_bar_{0})\n"
+    file.write("(define (problem joint_bar)\n"
                "(:domain joint_bar)\n"
                "(:objects\n    gleft gright - gripper\n    ".format(id))
 

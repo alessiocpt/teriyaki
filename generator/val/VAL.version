@@ -1,0 +1,28 @@
+{
+  "buildId": 64,
+  "version": "20210401.1-Linux",
+  "files": [
+    "Val-20210401.1-Linux/bin/Parser",
+    "Val-20210401.1-Linux/bin/ValueSeq",
+    "Val-20210401.1-Linux/bin/PinguPlan",
+    "Val-20210401.1-Linux/bin/PlanToValStep",
+    "Val-20210401.1-Linux/bin/Analyse",
+    "Val-20210401.1-Linux/bin/ToFn",
+    "Val-20210401.1-Linux/bin/PlanRec",
+    "Val-20210401.1-Linux/bin/Relax",
+    "Val-20210401.1-Linux/bin/TIM",
+    "Val-20210401.1-Linux/bin/Instantiate",
+    "Val-20210401.1-Linux/bin/HowWhatWhen",
+    "Val-20210401.1-Linux/bin/TypeAnalysis",
+    "Val-20210401.1-Linux/bin/DomainView",
+    "Val-20210401.1-Linux/bin/ValStep",
+    "Val-20210401.1-Linux/bin/libVAL.so",
+    "Val-20210401.1-Linux/bin/PlanSeqStep",
+    "Val-20210401.1-Linux/bin/Validate",
+    "Val-20210401.1-Linux/README.md"
+  ],
+  "parserPath": "Val-20210401.1-Linux/bin/Parser",
+  "validatePath": "Val-20210401.1-Linux/bin/Validate",
+  "valueSeqPath": "Val-20210401.1-Linux/bin/ValueSeq",
+  "valStepPath": "Val-20210401.1-Linux/bin/ValStep"
+}
