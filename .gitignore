@@ -1,0 +1,7 @@
+dataset/domains/*
+dataset/formatted/*
+dataset/plans/*
+dataset/problems/*
+.ipynb_checkpoints
+exec.stats
+generator/__pycache__/
