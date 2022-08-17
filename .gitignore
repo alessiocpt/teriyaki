@@ -1,8 +1,11 @@
 dataset/domains/*
 dataset/formatted/*
 dataset/plans/*
+dataset/plans_ipc/*
 dataset/problems/*
 .ipynb_checkpoints
 exec.stats
 grounding.stats
+generator/exec.stats
+generator/grounding.stats
 generator/__pycache__/

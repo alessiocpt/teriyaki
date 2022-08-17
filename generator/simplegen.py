@@ -6,6 +6,7 @@ Writes to file a problem file for the simple case.
 import sys
 import argparse
 import os
+import random
 from random import randint
 import numpy as np
 
@@ -79,7 +80,11 @@ def generate_simple_prob(file, links, joints, angles, init, goal, oriented, id, 
 
     if oriented:
         file.write("\n    (fixed joint_ground)\n")
-    file.write("    (free gleft) (free gright)\n    (in-centre joint2) )\n\n")
+    file.write("    (in-centre joint{0})\n".format(random.choice(range(1, joints + 1))))
+    if bool(random.getrandbits(1)):
+        file.write("    (free gleft)\n    (free gright))\n")
+    else:
+        file.write(")\n")
 
     file.write("(:goal\n")
     file.write("(and\n")

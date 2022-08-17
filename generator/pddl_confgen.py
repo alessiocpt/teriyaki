@@ -67,12 +67,12 @@ def main(argv):
 
     # Generate initial and final configurations
     confs = []
-
+    possibility = [0, resolution-1, resolution-2, resolution-3, resolution-4, resolution-5, resolution-6]
     for prob in range(0, args.samples):
 
         state = []
         for joint in range(0, joints):
-            state.append(angles[random.randint(0,0)])
+            state.append(angles[random.choice(possibility)])
 
         goal = []
         if args.distance is not None:
@@ -86,7 +86,6 @@ def main(argv):
         else:
             ## modified to hardcode the generation of executable plans
             ## possibility=[resolution-1,resolution-2, 0,1,2]
-            possibility = [0, resolution-1, resolution-2, resolution-3, resolution-4, resolution-5, resolution-6]
             for link in range(0, joints):
                 goal.append(angles[random.choice(possibility)])
 
