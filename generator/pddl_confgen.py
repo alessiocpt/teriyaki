@@ -55,6 +55,10 @@ def main(argv):
     if args.links < 3:
         print('There must be at least 3 links. Aborting.')
         return
+
+    if args.samples > 99999:
+        print('You cannot generate more than 99999 plans. Sorry!')
+        return
     
     angles = range(0, 359, step)
 
@@ -135,7 +139,7 @@ def main(argv):
         print("Writing conditional problem files to {0}...".format(path))
         fileid = 1
         for probf in range(0, len(confs), 2):
-            filename = "/problem_conditional_{0}_{1}{2}_{3}.pddl".format(args.links, resolution, tag, fileid)
+            filename = "/problem_conditional_{0}_{1}{2}_{3}.pddl".format(args.links, resolution, tag, str(fileid).rjust(5, '0'))
             file = open(path + filename, "w+")
             ## modified to hardcode the generation of executable plans
             init = confs[probf]

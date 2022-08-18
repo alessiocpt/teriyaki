@@ -78,13 +78,17 @@ def generate_simple_prob(file, links, joints, angles, init, goal, oriented, id, 
     for joint in range(int(oriented), joints + int(oriented)):
         file.write("    (angle_joint angle{0} joint{1})\n".format(init[joint], joint + int(not oriented)))
 
+    
     if oriented:
         file.write("\n    (fixed joint_ground)\n")
     file.write("    (in-centre joint{0})\n".format(random.choice(range(1, joints + 1))))
+    
     if bool(random.getrandbits(1)):
         file.write("    (free gleft)\n    (free gright))\n")
     else:
-        file.write(")\n")
+        holding_link = random.choice(range(1, joints + 1))
+        file.write("    (in-hand link{0})\n    (in-hand link{1})\n".format(holding_link, holding_link + 1))
+        file.write("    (grasp gleft link{0})\n    (grasp gright link{1}))\n".format(holding_link, holding_link + 1))
 
     file.write("(:goal\n")
     file.write("(and\n")
