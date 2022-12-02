@@ -1,0 +1,3 @@
+0.00100: (take-links-to-move link3 link4 joint3 gright gleft)
+0.00300: (increase_angle_first_child_45 link4 link3 joint3 angle270 angle285 angle300 angle315 gleft gright)
+0.00500: (increase_angle_first_child_45 link4 link3 joint3 angle315 angle330 angle345 angle0 gleft gright)

@@ -1,0 +1,10 @@
+0.00100: (release-links link4 link3 joint3 gleft gright)
+0.00300: (link-to-central-grasp link2 link1 joint3 joint1 gleft gright)
+0.00500: (increase_angle_first_child link2 link1 joint1 angle345 angle0 gleft gright)
+0.00700: (release-links link2 link1 joint1 gleft gright)
+0.00900: (link-to-central-grasp link3 link2 joint1 joint2 gleft gright)
+0.01100: (increase_angle_first_child link3 link2 joint2 angle330 angle345 gleft gright)
+0.01300: (release-links link3 link2 joint2 gleft gright)
+0.01500: (link-to-central-grasp link4 link3 joint2 joint3 gleft gright)
+0.01700: (increase_angle_first_child link4 link3 joint3 angle315 angle330 gleft gright)
+ 

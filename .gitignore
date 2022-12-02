@@ -1,9 +1,9 @@
-dataset/domains/*
-dataset/formatted/*
-dataset/plans/*
-dataset/plans_ipc/*
-dataset/problems/*
-dataset/batches/
+# dataset/domains/*
+# dataset/formatted/*
+# dataset/plans/*
+# dataset/plans_ipc/*
+# dataset/problems/*
+# dataset/batches/
 .ipynb_checkpoints
 exec.stats
 grounding.stats

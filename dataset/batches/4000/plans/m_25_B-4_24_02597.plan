@@ -1,0 +1,2 @@
+0.00100: (link-to-central-grasp link3 link4 joint2 joint3 gleft gright)
+0.00300: (decrease_angle_first_child_45 link4 link3 joint3 angle345 angle330 angle315 angle300 gright gleft)
