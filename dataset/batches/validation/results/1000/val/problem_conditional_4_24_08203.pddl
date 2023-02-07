@@ -1,0 +1,1 @@
+CompletedProcess(args=['./generator/Validate', './dataset/domains/domain_m_25_B.pddl', './dataset/batches/validation/problems/problem_conditional_4_24_08203.pddl', './dataset/batches/validation/results/1000/plans/problem_conditional_4_24_08203.plan'], returncode=-9, stdout=b'')
