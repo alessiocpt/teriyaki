@@ -11,3 +11,4 @@
 0.02100: (take-links-to-move link4 link3 joint3 gleft gright)
 0.02300: (decrease_angle_first_child link4 link3 joint3 angle0 angle345 gleft gright)
 0.02500: (decrease_angle_first_child link4 link3 joint3 angle345 angle330 gleft gright)
+
