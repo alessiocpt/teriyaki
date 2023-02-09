@@ -22,7 +22,7 @@
 (:action move-link-to-central
 :parameters (?link1 - link ?joint1 ?joint2 - joint ?g2 - gripper)
 :precondition (and (in-centre ?joint1) (connected ?joint2 ?link1) (free ?g2) (not (in-hand ?link1)))
-:effect (and (not (in-centre ?joint1)) (not (free ?g2)) (free ?g2) (in-centre ?joint2) (not (in-hand ?link1)) (in-hand ?link1) )
+:effect (and (not (in-centre ?joint1)) (in-centre ?joint2))
 )
 
 ;;grasp 2 links to make movement

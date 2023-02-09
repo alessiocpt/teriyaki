@@ -11,7 +11,6 @@
 0.02100: (release-links link3 link2 joint2 gleft gright)
 0.02300: (move-link-to-central link3 joint2 joint3 gright)
 0.02500: (take-links-to-move link4 link3 joint3 gleft gright)
-0.02700: (increase_angle_first_child link4 link3 joint3 angle300 angle315 gleft gright)
-0.02900: (increase_angle_first_child link4 link3 joint3 angle315 angle330 gleft gright)
-0.03100: (increase_angle_first_child link4 link3 joint3 angle330 angle345 gleft gright)
+0.02700: (increase_angle_first_child link4 link3 joint3 angle315 angle330 gleft gright)
+0.02900: (increase_angle_first_child link4 link3 joint3 angle330 angle345 gleft gright)
  
