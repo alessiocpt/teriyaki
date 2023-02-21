@@ -1,4 +1,3 @@
-sep=,
 step,elapsed_tokens,elapsed_examples,training_loss,training_sequence_accuracy,training_token_accuracy,validation_loss,validation_sequence_accuracy,validation_token_accuracy
 1,441,1,0.03259492375194267,0.0,0.9847560975609756,0.015322209567785855,0.0,0.9885057471264368
 2,770,2,0.02473701208453706,0.0,0.9724770642201835,,,
