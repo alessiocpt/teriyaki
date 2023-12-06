@@ -1,6 +1,12 @@
-# Teriyaki: A Framework to Generate Neurosymbolic PDDL-compliant Planners
+# Teriyaki: A Framework for Neurosymbolic Action Planning using Large Language Models
 
-### Read the paper on [ArXiv](https://arxiv.org/abs/2303.00438v2)
+## Read the paper on [ArXiv](https://arxiv.org/abs/2303.00438v2)
+
+## Highlights
+
+![](poster.png)
+
+## Usage instructions
 
 This repo contains the dataset used for the experiments and a tutorial-style Jupyter notebook with all the steps needed to fine-tune a GPT-3 model into a PDDL solver. The paper's results are also included. 
 
